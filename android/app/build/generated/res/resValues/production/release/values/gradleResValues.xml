@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Values from build type: release -->
+    <integer name="react_native_dev_server_port">8081</integer>
+    <integer name="react_native_inspector_proxy_port">8081</integer>
+    <!-- Values from default config. -->
+    <string name="APP_DISPLAY_NAME" translatable="false">"eKYC"</string>
+    <string name="BASE_URL" translatable="false">"https://mss-engine.herokuapp.com/"</string>
+    <string name="SOCKET_SERVER" translatable="false">""</string>
+    <string name="VER_CODE" translatable="false">"1"</string>
+    <string name="VER_NAME" translatable="false">"1.0.0"</string>
+    <string name="build_config_package" translatable="false">com.ekyc</string>
+
+</resources>

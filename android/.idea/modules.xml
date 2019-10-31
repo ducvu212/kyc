@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/@react-native-community/async-storage/android/@react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/../node_modules/@react-native-community/async-storage/android/@react-native-community_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eKYC.iml" filepath="$PROJECT_DIR$/eKYC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-cardview/android/react-native-cardview.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-cardview/android/react-native-cardview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-config/android/react-native-config.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-config/android/react-native-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-device-info/android/react-native-device-info.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-device-info/android/react-native-device-info.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-navigation/lib/android/app/react-native-navigation.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-navigation/lib/android/app/react-native-navigation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-splash-screen/android/react-native-splash-screen.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-splash-screen/android/react-native-splash-screen.iml" />
+    </modules>
+  </component>
+</project>

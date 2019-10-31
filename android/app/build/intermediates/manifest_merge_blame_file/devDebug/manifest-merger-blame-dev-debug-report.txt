@@ -1,0 +1,133 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ekyc.dev"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:5:5-67
+12-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:5:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:6:5-65
+13-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:6:22-62
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:7:5-80
+14-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:7:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:8:5-81
+15-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:8:22-78
+16    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+16-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:9:5-74
+16-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:9:22-71
+17
+18    <uses-feature
+18-->[:react-native-camera] /Users/tran.ngoc.nam/Desktop/Duc/eKYC/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:11:5-13:36
+19        android:name="android.hardware.camera"
+19-->[:react-native-camera] /Users/tran.ngoc.nam/Desktop/Duc/eKYC/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:12:9-47
+20        android:required="false" />
+20-->[:react-native-camera] /Users/tran.ngoc.nam/Desktop/Duc/eKYC/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:13:9-33
+21    <uses-feature
+21-->[:react-native-camera] /Users/tran.ngoc.nam/Desktop/Duc/eKYC/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:14:5-16:36
+22        android:name="android.hardware.camera.autofocus"
+22-->[:react-native-camera] /Users/tran.ngoc.nam/Desktop/Duc/eKYC/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:15:9-57
+23        android:required="false" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+23-->[:react-native-camera] /Users/tran.ngoc.nam/Desktop/Duc/eKYC/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:16:9-33
+24    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+24-->[com.google.android.gms:play-services-iid:17.0.0] /Users/tran.ngoc.nam/.gradle/caches/transforms-2/files-2.1/2fe2cf4f4c44e3dc2eb7f1e1afda80c7/play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+24-->[com.google.android.gms:play-services-iid:17.0.0] /Users/tran.ngoc.nam/.gradle/caches/transforms-2/files-2.1/2fe2cf4f4c44e3dc2eb7f1e1afda80c7/play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+25
+26    <application
+26-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:11:5-30:19
+27        android:name="com.ekyc.MainApplication"
+27-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:12:7-38
+28        android:allowBackup="false"
+28-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:15:7-34
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.2.0-alpha01] /Users/tran.ngoc.nam/.gradle/caches/transforms-2/files-2.1/57a6ed238eae2a2657ade8453b3ba4b3/core-1.2.0-alpha01/AndroidManifest.xml:22:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:13:7-41
+32        android:label="@string/APP_DISPLAY_NAME"
+32-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:16:7-47
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:14:7-52
+34        android:theme="@style/AppTheme"
+34-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:17:7-38
+35        android:usesCleartextTraffic="true" >
+35-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/debug/AndroidManifest.xml:7:18-53
+36        <activity
+36-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:19:7-28:18
+37            android:name="com.ekyc.MainActivity"
+37-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:20:9-37
+38            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+38-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:22:9-79
+39            android:label="@string/APP_DISPLAY_NAME"
+39-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:21:9-49
+40            android:windowSoftInputMode="adjustResize" >
+40-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:23:9-51
+41            <intent-filter>
+41-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:24:9-27:25
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:25:13-65
+42-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:25:21-62
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:26:13-73
+44-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:26:23-70
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:29:7-84
+48            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+48-->/Users/tran.ngoc.nam/Desktop/Duc/eKYC/android/app/src/main/AndroidManifest.xml:29:17-81
+49            android:exported="false" />
+49-->[:react-native-navigation] /Users/tran.ngoc.nam/Desktop/Duc/eKYC/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative60Debug/AndroidManifest.xml:14:13-37
+50
+51        <receiver
+51-->[:react-native-device-info] /Users/tran.ngoc.nam/Desktop/Duc/eKYC/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-19:20
+52            android:name="com.learnium.RNDeviceInfo.RNDeviceReceiver"
+52-->[:react-native-device-info] /Users/tran.ngoc.nam/Desktop/Duc/eKYC/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-70
+53            android:enabled="true"
+53-->[:react-native-device-info] /Users/tran.ngoc.nam/Desktop/Duc/eKYC/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-35
+54            android:exported="true" >
+54-->[:react-native-device-info] /Users/tran.ngoc.nam/Desktop/Duc/eKYC/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-36
+55            <intent-filter>
+55-->[:react-native-device-info] /Users/tran.ngoc.nam/Desktop/Duc/eKYC/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:29
+56                <action android:name="com.android.vending.INSTALL_REFERRER" />
+56-->[:react-native-device-info] /Users/tran.ngoc.nam/Desktop/Duc/eKYC/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-79
+56-->[:react-native-device-info] /Users/tran.ngoc.nam/Desktop/Duc/eKYC/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:25-76
+57            </intent-filter>
+58        </receiver>
+59
+60        <meta-data
+60-->[com.github.bumptech.glide:okhttp3-integration:4.9.0] /Users/tran.ngoc.nam/.gradle/caches/transforms-2/files-2.1/a3de4dd7ce9b3189f9eb7fb2cbf9f5f4/jetified-okhttp3-integration-4.9.0/AndroidManifest.xml:11:9-13:43
+61            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+61-->[com.github.bumptech.glide:okhttp3-integration:4.9.0] /Users/tran.ngoc.nam/.gradle/caches/transforms-2/files-2.1/a3de4dd7ce9b3189f9eb7fb2cbf9f5f4/jetified-okhttp3-integration-4.9.0/AndroidManifest.xml:12:13-84
+62            android:value="GlideModule" />
+62-->[com.github.bumptech.glide:okhttp3-integration:4.9.0] /Users/tran.ngoc.nam/.gradle/caches/transforms-2/files-2.1/a3de4dd7ce9b3189f9eb7fb2cbf9f5f4/jetified-okhttp3-integration-4.9.0/AndroidManifest.xml:13:13-40
+63
+64        <activity
+64-->[com.google.android.gms:play-services-base:17.0.0] /Users/tran.ngoc.nam/.gradle/caches/transforms-2/files-2.1/79f738e139ba90e5ebb56545668d8919/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+65            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+65-->[com.google.android.gms:play-services-base:17.0.0] /Users/tran.ngoc.nam/.gradle/caches/transforms-2/files-2.1/79f738e139ba90e5ebb56545668d8919/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+66            android:exported="false"
+66-->[com.google.android.gms:play-services-base:17.0.0] /Users/tran.ngoc.nam/.gradle/caches/transforms-2/files-2.1/79f738e139ba90e5ebb56545668d8919/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+67            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+67-->[com.google.android.gms:play-services-base:17.0.0] /Users/tran.ngoc.nam/.gradle/caches/transforms-2/files-2.1/79f738e139ba90e5ebb56545668d8919/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+68
+69        <meta-data
+69-->[com.google.android.gms:play-services-basement:17.0.0] /Users/tran.ngoc.nam/.gradle/caches/transforms-2/files-2.1/c2ea299e94a96d50845a2102b956635a/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+70            android:name="com.google.android.gms.version"
+70-->[com.google.android.gms:play-services-basement:17.0.0] /Users/tran.ngoc.nam/.gradle/caches/transforms-2/files-2.1/c2ea299e94a96d50845a2102b956635a/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+71            android:value="@integer/google_play_services_version" />
+71-->[com.google.android.gms:play-services-basement:17.0.0] /Users/tran.ngoc.nam/.gradle/caches/transforms-2/files-2.1/c2ea299e94a96d50845a2102b956635a/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+72    </application>
+73
+74</manifest>
